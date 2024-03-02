@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.card-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.card-summary-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+  margin: 0px;
+}
+.card-summary-items-count {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: #616e7c;
+}
+.card-summary-button {
+  background-color: #0b69ff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 3px;
+}
