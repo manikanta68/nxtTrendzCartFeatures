@@ -28,3 +28,42 @@
   padding: 6px;
   border-radius: 3px;
 }
+.popup-container {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.paymentPopup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.dropDown {
+  margin-top: 20px;
+}
+
+.confirmOrderButton {
+  margin-top: 15px;
+  background-color: lightgray;
+  border: none;
+
+  outline: none;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.confirmationSuccess {
+  margin: 10%;
+  text-align: center;
+  color: rgb(9, 247, 9);
+}
+
+.confirm {
+  cursor: pointer;
+  background-color: #0b69ff;
+}
